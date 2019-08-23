@@ -18,16 +18,35 @@
 }
 
 nav {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 24px;
 }
 
 nav ul {
     list-style: none;
+    background-color: rgb(0,0,128);
 }
 
 nav li {
     display: inline;
-    padding-left: 40px;
-    
+    padding-left: 100px;
+    margin: 75px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(203,208,216);
+}
+nav a:hover {
+    text-decoration: none;
+}
+
+main {
+    margin-top: -10px;
+    background-color: rgb(211,172,43);
+}
+
+.about_me {
+    width: 300px;
+    font
 }
