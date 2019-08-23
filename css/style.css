@@ -1,0 +1,33 @@
+.top_section {
+    position: relative;
+    margin-left: 500px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top_section img {
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.top_section_background img {
+    position: absolute;
+    height: 350px;
+    width: 100%;
+}
+
+nav {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding-left: 40px;
+    
+}
