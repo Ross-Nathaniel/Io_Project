@@ -1,0 +1,33 @@
+/* mobile */
+h2 {
+    color: blue;
+}
+
+/* col-sm-* */
+@media (min-width: 768px) {
+    h2 {
+        color: red;
+    }			
+}
+
+/* custom */
+@media (min-width: 800px) and (max-width: 900px) {
+    h2 {
+        color: black;
+    }
+}
+
+/* col-md-* */
+@media (min-width: 992px) {
+    h2 {
+        color: purple;
+    }			
+}
+
+/* col-lg- */
+@media (min-width: 1200px) {
+    h2 {
+        color: green;
+        position: static;
+    }			
+}

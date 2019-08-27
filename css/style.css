@@ -52,82 +52,63 @@ main {
 }
 
 .about_me {
-    width: 500px;
-    font-size: 25px;
+    /* width: 500px;  */
+    font-size: 24px;
     border: 4px solid #111111;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 350px;
+    /* margin-right: 0; */
+    margin: 0 125px;
+    color: white;
+    text-align: center;
     color: white;
 }
 
-.bloom_landing_project {
-    margin-top: 10px;
-    margin-left: 70px;
-    width: 835px;
-    border: 3px solid black;
-    background-color: #E31C25;
-    /* border-left-width: 50px; */
-    /* border-right-width: 200px; */
+@media { max-width: ;
     
 }
 
-.bloom_landing_project img {
-    margin-left: -15px;
+.project-1 {
+    margin-top: 15px;
+    border: black solid 3px;
+    background-color: #BB000E;
+    /* width: 60%; */
+    margin: 15px 250px 0 100px;
+    font-size: 24px;
+}
+
+.project-1 p {
+    /* font-size: 50px; */
+    margin-top: 100px;
+    text-align: center;
+}
+
+.project-1 button {
+    align-content: center;    
+}
+
+.project-1 img {
     width: 400px;
     height: 300px;
 }
 
-.venedor_project {
-    margin-top: 20px;
-    background-color: #E31C25;
-    width: 835px;
-    margin-left: 70px;
-    border: 3px solid black;
+.project-2 {
+    margin-top: 15px;
+    border: black solid 3px;
+    background-color: #BB000E;
+    margin: 15px 250px 0px 100px;
+    font-size: 24px;
 }
 
-.venedor_project img {
-    width: 430px;
-    height: 300px;
-    margin-left: -200px;
+.project-2 p {
+    margin-top: 100px;
+    text-align: center;
 }
 
-.detroix_project {
-    margin-top: 20px;
-    width: 835px;
-    background-color: #E31C25;
-    border: 3px solid black;
-    margin-left: 70px;
+.project-2 button {
+    align-content: center;
 }
 
-.detroix_project img {
+.project-2 img{
     width: 400px;
     height: 300px;
-    margin-left: -15px;
-}
-
-footer {
-    /* margin-top: 20px; */
-    background-color: #1C1C1C;
-}
-
-.contact_info ul {
-    list-style: none;
-}
-
-.contact_info li {
-    /* display: inline; */
-    color: #BB000E;
-}
-
-.social_media {
-    /* float: right; */
-}
-
-.social_media ul {
-    list-style: none;
-}
-
-.social_media li {
-    display: inline;
-    /* margin-bottom: 15px; */
 }

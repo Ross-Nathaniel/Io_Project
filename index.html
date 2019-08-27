@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/wwc6bzr.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
@@ -23,6 +24,8 @@
         <header>Nathaniel Ross</header>
     </div>
 
+    <div class="clear"></div>
+
     <nav>
         <ul>
             <li><a href="#link">About Me</a></li>
@@ -32,12 +35,16 @@
     </nav>
 
     <main>
-        <div class="about_me">
-            <p>Hello my name is Nathaniel Ross, I am a junior developer at the Mississippi coding academy. </p>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="about_me">
+                        <p>Hello my name is Nathaniel Ross, I am a Junior Developer at the Mississippi coding academy. </p>
+                    </div>
+                </div>
+            </div>
 
-        <div class="bloom_landing_project">
-            <div class="container">
+            <div class="project-1">
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="media/bloom_project.png" class="img-responsive" alt="">
@@ -51,8 +58,8 @@
             </div>
         </div>
             
-        <div class="venedor_project">
-            <div class="container">
+        <div class="container">
+            <div class="project-2">
                 <div class="row">
                     <div class="col-sm-6">
                         <p>Venedor Website Project</p>
@@ -66,8 +73,8 @@
             </div>
         </div>
 
-        <div class="detroix_project">
-            <div class="container">
+        <div class="container">
+            <div class="project-1">
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="media/detroix_project.png" class="img-responsive" alt="">
@@ -83,19 +90,26 @@
     </main>
 
     <footer>
-        <div class="contact_info">
-            <ul>
-                <li>601-720-0809</li>
-                <li>ross.nathaniel@gmail.com</li>
-            </ul>
-        </div>
-        
-        <div class="social_media">
-            <ul>
-                <li><a href="#link"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#link"><i class="fab fa-twitter-square"></i></a></li>
-                <li><a href="#link"><i class="fab fa-github-square"></i></a></li>
-            </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="contact_info">
+                        <ul>
+                            <li>601-720-0809</li>
+                            <li>ross.nathaniel@gmail.com</li>
+                        </ul>
+                    </div>
+
+                <div class="col-sm-6">
+                    <div class="social_media">
+                        <ul>
+                            <li><a href="#link"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#link"><i class="fab fa-twitter-square"></i></a></li>
+                            <li><a href="#link"><i class="fab fa-github-square"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
