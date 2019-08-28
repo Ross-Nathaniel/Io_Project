@@ -105,10 +105,37 @@ main {
 }
 
 .project-2 button {
-    align-content: center;
+    /* align-content: center; */
+    margin-left: 15px;
 }
 
 .project-2 img{
     width: 400px;
     height: 300px;
+}
+
+footer {
+    
+    background-color: black;
+    padding-top: 15px;
+    border-top: #1C1C1C solid 5px;
+}
+
+.contact_info ul {
+list-style: none;
+}
+
+
+
+.social_media ul {
+    list-style: none;
+}
+
+.social_media li {
+    display: inline;
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+    margin-top: 20px;
 }
