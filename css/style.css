@@ -279,9 +279,6 @@ list-style: none;
         padding: 0;
     }
 
-    .project-2 span {
-        margin-right: -10px;
-    }
 }
 
 @media (min-width: 768px) {
