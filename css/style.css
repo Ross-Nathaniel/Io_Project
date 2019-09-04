@@ -115,7 +115,6 @@ main {
 }
 
 .project-2 button {
-    /* align-content: center; */
     margin-left: 15px;
 
 }
@@ -167,7 +166,6 @@ list-style: none;
     .top_section header {
         font-size: 45px;
         margin: auto;
-        /* text-align: center; */
     }
 
     .top_section p {
@@ -187,9 +185,7 @@ list-style: none;
 .nav-bar li {
     display: inline;
     font-size: 20px;
-    /* padding: 0; */
     padding-right: 10px;
-   /* text-align: center; */
 }
 
 
@@ -251,10 +247,6 @@ list-style: none;
         width: 350px;
         margin: auto;
         margin-top: 15px;
-    }
-
-    .project-1 button {
-        /* margin-right: 15px; */
     }
 
     .project-2 {
