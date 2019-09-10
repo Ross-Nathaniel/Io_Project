@@ -14,7 +14,7 @@
     border: 3px solid;
     border-radius: 50%;
 }
-
+ 
 .top_section_background img {
     position: absolute;
     height: 350px;
@@ -27,7 +27,7 @@
     padding: 0;
 }
 
-.nav-bar{
+.nav-bar {
     background-color:#BB000E;
 }
 
@@ -47,14 +47,14 @@
 
 .nav-bar li {
     display: inline;
-    padding-right: 150px;
-    margin: 75px;
+    padding-right: 50px;
 }
 
 .nav-bar a {
     text-decoration: none;
     color: rgb(203,208,216);
 }
+
 .nav-bar a:hover {
     text-decoration: none;
     color: black;
@@ -66,7 +66,7 @@ main {
 }
 
 .about_me {
-    font-size: 24px;
+    font-size: 33px;
     border: 4px solid #111111;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 125px;
@@ -79,86 +79,94 @@ main {
     margin-top: 15px;
     border: black solid 3px;
     background-color: #BB000E;
-    margin: 15px 250px 0 100px;
     font-size: 24px;
+}
+
+.project-1 img {
+    height: 350px;
 }
 
 .project-1 p {
     margin-top: 100px;
     text-align: center;
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #111111;
 }
 
-.project-1 button a {
+.project-1 a {
+    margin-left: 75px;
     align-content: center; 
-    text-decoration: none;  
-    color: black; 
-}
-
-.project-1 button a:hover {
     text-decoration: none;
+    border: #1C1C1C 2px solid; 
+    color: white;
+    background:#111111;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.project-1 img {
-    width: 400px;
-    height: 300px;
+.project-1 a:hover {
+    text-decoration: none;
+    color: #BB000E;
 }
+
+ .project-1 img {
+    height: 350px;
+} 
 
 .project-2 {
     margin-top: 15px;
     border: black solid 3px;
     background-color: #BB000E;
-    margin: 15px 250px 0px 100px;
     font-size: 24px;
 }
 
 .project-2 p {
     margin-top: 100px;
     text-align: center;
+    margin-left: -45px;
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #111111;
 }
 
-.project-2 button {
-    margin-left: 15px;
-
+.project-2 a {
+    margin-left: 65px;
+    border: #1C1C1C 2px solid; 
+    color: white;
+    background:#111111;
+    padding: 10px;
+    border-radius: 5px;
 }
-.project-2 button a {
-    align-content: center; 
-    text-decoration: none;  
-    color: black; 
+
+.project-2 a:hover {
+    text-decoration: none;
+    color: #BB000E;
+    
 }
 
 .project-2 img {
-    width: 400px;
-    height: 300px;
-}
+    height: 350px;
+} 
 
 footer {
-    
     background-color: black;
     padding-top: 15px;
     border-top: #1C1C1C solid 5px;
 }
 
-.contact_info ul {
+footer ul {
 list-style: none;
+padding: 0;
 }
 
-.contact_info li {
+footer li {
     display: inline;
-    padding-left: 30px;
-    float: left;
+    padding-right: 30px;
+    text-align: left;
 }
 
-.social_media ul {
-    list-style: none;
-}
-
-.social_media li {
-    display: inline;
-    float: right;
-    padding-left: 30px;
-}
-
-@media  (min-width: 320px) {
+@media  (max-width: 320px) {
 
     .top_section_background {
         width: 100%
@@ -173,132 +181,155 @@ list-style: none;
         margin-top: -15px;
     }
 
-.nav-bar {
-    width: 320px;
-    margin-top: -35px;
-}
-
-.nav-bar ul {
-    padding-top: 20px; 
-}
-
-
-.nav-bar li {
-    display: inline;
-    font-size: 20px;
-    padding-right: 10px;
-}
-
-
-    .about_me {
-        width: 300px;
-        margin: auto;
-        margin-top: 15px;
-    }
-
-    .project-1 {
-        width: 300px;
-        margin: auto;
-        margin-top: 15px;
-    }
-
-    .project-1 button {
-        text-align: center;
-        font-size: 20px;
-        margin-top: 15px;
-        margin: auto;
-    }
-
-    .project-1 a {
-      text-decoration: none;  
-    }
-    .project-2 {
-        width: 300px;
-        margin: auto;
-        margin-top: 15px;
-    }
-
-    .project-2 button {
-        text-align: center;
-        font-size: 20px;
-        margin: auto;
-        padding-left: 5px;
-    }
-
-    .social_media li {
-       display: inline;
-       margin: auto;
-       padding: 0;
-       padding-right: 5px;
-    }
-}
-
-@media (min-width: 375px) {
     .nav-bar {
-        width: 100%; 
+        margin-top: -35px;
+    }
 
+    .nav-bar ul {
+        padding-top: 20px; 
     }
 
     .nav-bar li {
-       padding: 0;
-              
+        display: inline;
+        font-size: 20px;
+        padding-right: 10px;
     }
 
+
     .about_me {
-        width: 350px;
         margin: auto;
         margin-top: 15px;
     }
 
     .project-1 {
-        width: 350px;
         margin: auto;
         margin-top: 15px;
     }
 
+    .project-1 p {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .project-1 a {
+        text-align: center;
+        margin: auto; 
+        margin-left: 25px;
+    }
+
+    .project-1 a:hover{
+      text-decoration: none;  
+      color: #BB000E;
+    }
     .project-2 {
-        width: 350px;
         margin: auto;
         margin-top: 15px;
     }
 
-    .social_media {
-        margin-left: -100px;
+    .project-2 p {
+        font-size: 25px;
+        margin: auto;
+    }
+
+    .project-2 a {
+        font-size: 25px;
+        align-content: center;
+        padding: 7px;
+    }
+
+    footer ul {
+        padding: 0;
+    }
+
+    .footer li {
+       display: inline;
+       margin: auto;
+       padding: 0;
     }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 375px) {
+    .nav-bar {
+        width: 100%; 
+    }
+
+    .nav-bar li {
+       padding: 0;   
+    }
+
+    .about_me {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .project-1 {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .project-1 p {
+        margin-left: 20px;
+    }
+
+    .project-2 {
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .project-2 a {
+        /* margin-left: -10px; */
+    }
+
+    footer ul {
+        padding: 0;
+    }
+
+    footer li {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 425px) {
     .nav-bar li {
     display: inline;
     padding-right: 15px;
     margin: auto;
     }
 
-    .project-2 button {
-        padding: 0;
+    .about_me {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .project-2 a {
+        padding: 7;
+        margin-left: 17px;
     }
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .nav-bar li {
-    padding-left: 50px;
     text-align: center;
     }
 
-    .project-1 {
-    width: 740px;
-    }
 
     .project-1 p {
-        margin-left: -45px;
-    }
-
-    .project-2 {
-        width: 740px;
+        text-align: center;
     }
 
     .project-2 p {
-        margin-left: -45px;
+        /* margin-left: -45px; */
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .project-1 a {
+        margin-left: 45px;
+    }
+
+    .project-2 a {
+        margin-left: 30px;
     }
 }
