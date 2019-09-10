@@ -276,10 +276,6 @@ footer li {
         margin-top: 15px;
     }
 
-    .project-2 a {
-        /* margin-left: -10px; */
-    }
-
     footer ul {
         padding: 0;
     }
@@ -313,13 +309,12 @@ footer li {
     text-align: center;
     }
 
-
     .project-1 p {
         text-align: center;
     }
 
     .project-2 p {
-        /* margin-left: -45px; */
+        margin: auto;
         text-align: center;
     }
 }
